@@ -56,12 +56,14 @@ Build the application:
 
 ## Running as a Progressive Web App (PWA)
 1. Build the application:
-npm run build
+   ```bash
+    npm run build
 Serve the app (You can use serve for this):
 
 2. Serve the app
-npm install -g serve
-serve -s build
+    ```bash
+    npm install -g serve
+    serve -s build
 The app will now be served as a PWA, and you'll see a prompt for "Add to Home Screen" when you open it in a mobile browser.
 
 ## Code Structure
